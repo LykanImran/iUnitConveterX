@@ -62,6 +62,7 @@
         android:id="@+id/txtInto"
         android:layout_below="@+id/spinnerUnitsBase"
         android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_700"
         android:layout_marginTop="@dimen/defaultMargin"
         android:layout_marginBottom="@dimen/defaultMargin" />
 
@@ -72,6 +73,7 @@
         android:elevation="15dp"
         android:id="@+id/spinnerUnitsResult"
         android:layout_below="@+id/txtInto"
+        android:hardwareAccelerated="true"
 
         android:layout_alignParentLeft="false"
         android:layout_alignParentStart="false"
